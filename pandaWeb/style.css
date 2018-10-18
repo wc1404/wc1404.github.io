@@ -1,0 +1,36 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 177px;
+	background-color: green;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	font-family: "Arial";
+	font-size: 20px;
+}
+
+li a:hover {
+	background-color: lawngreen;
+}
+
+img {
+	width: auto;
+	height: 300px;
+}
+
+#head {
+	font-size: 30px;
+	color: forestgreen;
+}
+
+.font {
+	font-family: "Arial";
+}
