@@ -1,0 +1,340 @@
+/*NAVBAR*/
+	.navbar {
+		position: fixed;
+		left: 0;
+		top: 0;
+		background-color: white;
+		color: white;
+		text-align: center;
+		display: flex;
+			align-items: flex-start;
+			justify-content: flex-start;
+	}
+
+	.navbar img {
+		height: auto;
+		width: 200px;
+	}
+
+	.navbar a {
+		text-decoration: none;
+		text-align: center;
+		color: grey;
+		font-size: 40px;
+		font-family: "Avenir";
+		font-weight: bold;
+		padding: 2px 10px 0px 2px;
+		border: 2px solid grey;
+		border-radius: 2px;
+	}
+
+	/*LANDING*/
+	.carousel {
+		overflow: hidden;
+
+		margin-top: 65px;
+		padding: 10px;
+
+		height: 500px;
+		width: 100%;
+
+		display: block;
+		display: flex;
+			justify-content: center;
+	}
+
+	.carousel img{
+		width: auto;
+		height: 500px;
+
+		position: absolute;
+
+		opacity: 0;
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 30s;
+		-webkit-animation-iteration-count: infinite;
+	}
+
+	.carousel img:nth-child(2) {
+		-webkit-animation-delay: 5s;
+	}
+
+	.carousel img:nth-child(3) {
+		-webkit-animation-delay: 10s;
+	}
+
+	.carousel img:nth-child(4) {
+		-webkit-animation-delay: 15s;
+	}
+
+	.carousel img:nth-child(5) {
+		-webkit-animation-delay: 20s;
+	}
+
+	.carousel img:nth-child(6) {
+		-webkit-animation-delay: 25s;
+	}
+
+	.carousel img:nth-child(7) {
+		-webkit-animation-delay: 30s;
+	}
+
+	@-webkit-keyframes fade{ 
+		from {opacity: 0;}
+		5%   {opacity: 1;}
+		15%  {opacity: 1;}
+		20%  {opacity: 0;}
+		to   {opacity: 0;}
+	}
+
+	/*GALLERY*/
+	.gallery {
+		margin-top: 65px;
+		display: block;
+		display: ;
+	}
+
+	.gallery img { 
+		width: 230px;
+		padding: 5px;
+		filter: grayscale(100%);
+		transition: 0.5s;
+	}
+
+	.gallery img:hover { 
+		filter: grayscale(0);
+		transform: scale(1.1);
+	}
+
+/*SMALL SCREENS*/
+@media only screen and (max-width: 779px) {
+	/*FOOTER*/
+	.footer {
+		left: 0;
+		bottom: 0;
+		
+		height: auto;
+		width: 100%;
+		padding-top: 10px;
+		
+		background-color: white;
+		color: grey;
+		font-family: "Avenir";
+		font-weight: bold;
+
+		display: block;
+		display: flex;
+			flex-direction: row;
+	}
+
+	.footer img {
+		height: 30px;
+		width: auto;
+	}
+
+	.footer div {
+		height: auto;
+	}
+
+	/*Social Icon items in footer*/
+	.social {
+		bottom: 0;
+	}
+
+	.social img {
+		height: 20px;
+		width: auto;
+	}
+
+	/*Newsletter Items in footer*/
+	.newsletter {
+	}
+
+	.newsletter h1 {
+		padding: 0px;
+		margin: 0px;
+		font-size: 20px;
+	}
+
+	input[type=text] {
+		width: 50%;
+	    margin: 0px;
+	    box-sizing: border-box;
+	    border: none;
+	    border-bottom: 2px solid grey;
+	}
+
+	/*Logo Items in Footer*/
+	.logo {
+	}
+
+	.logo p {
+		text-align: right;
+		padding: 0px;
+		margin: 0px;
+		font-size: 10px;
+	}
+
+	.logo img {
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+/*MEDIUM SCREENS*/
+@media only screen and (min-width:780px) and (max-width:1079px) {
+	/*FOOTER*/
+	.footer {
+		left: 0;
+		bottom: 0;
+		
+		height: auto;
+		width: 100%;
+		padding-top: 10px;
+		
+		background-color: white;
+		color: grey;
+		font-family: "Avenir";
+		font-weight: bold;
+		background-color: green;
+
+		display: block;
+		display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+	}
+
+	.footer img {
+		height: 30px;
+		width: auto;
+	}
+
+	.footer div {
+		height: auto;
+	}
+
+	/*Social Icon items in footer*/
+	.social {
+		bottom: 0;
+	}
+
+	.social img {
+		height: 20px;
+		width: auto;
+	}
+
+	/*Newsletter Items in footer*/
+	.newsletter {
+	}
+
+	.newsletter h1 {
+		padding: 0px;
+		margin: 0px;
+		font-size: 20px;
+	}
+
+	.newsletter p {
+		border-bottom: grey solid 2px;
+		border-width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	input[type=text] {
+	    width: 100%;
+	    margin: 0px;
+	    box-sizing: border-box;
+	    border: none;
+	    border-bottom: 2px solid grey;
+	}
+
+	/*Logo Items in Footer*/
+	.logo {
+	}
+
+	.logo p {
+		text-align: right;
+		padding: 0px;
+		margin: 0px;
+		font-size: 10px;
+	}
+
+	.logo img {
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+/*LARGE SCREENS*/
+@media only screen and (min-width: 1080px) {
+	/*FOOTER*/
+	.footer {
+		left: 0;
+		bottom: 0;
+		
+		height: auto;
+		width: 100%;
+		padding-top: 10px;
+		
+		background-color: white;
+		color: grey;
+		font-family: "Avenir";
+		font-weight: bold;
+
+		display: block;
+		display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+	}
+
+	.footer img {
+		height: 30px;
+		width: auto;
+	}
+
+	.footer div {
+		height: auto;
+	}
+
+	/*Social Icon items in footer*/
+	.social {
+		bottom: 0;
+	}
+
+	.social img {
+		height: 20px;
+		width: auto;
+	}
+
+	/*Newsletter Items in footer*/
+	.newsletter {  }
+
+	.newsletter h1 {
+		padding: 0px;
+		margin: 0px;
+		font-size: 20px;
+	}
+
+	input[type=text] {
+		width: 100%;
+	    margin: 0px;
+	    box-sizing: border-box;
+	    border: none;
+	    border-bottom: 2px solid grey;
+	}
+
+	/*Logo Items in Footer*/
+	.logo {  }
+
+	.logo p {
+		text-align: right;
+		padding: 0px;
+		margin: 0px;
+		font-size: 10px;
+	}
+
+	.logo img {
+		padding: 0px;
+		margin: 0px;
+	}
+}
