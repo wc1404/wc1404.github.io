@@ -1,0 +1,27 @@
+div {
+	font-size: 20px;
+	font-family: "Avenir";
+	font-weight: bold;
+}
+
+.header {
+	background-color: red;
+}
+
+.menu {
+	color: white;
+	background-color: black;
+}
+
+.content {
+	height: 500px;
+	background-color: aqua;
+}
+
+.ad {
+	background-color: brown;
+}
+
+.footer {
+	background-color: pink;
+}

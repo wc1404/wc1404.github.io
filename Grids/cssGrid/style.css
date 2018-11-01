@@ -1,0 +1,48 @@
+div {
+	font-size: 20px;
+	font-family: "Avenir";
+	font-weight: bold;
+}
+
+.container {
+	overflow: hidden;
+	display: grid;
+		grid-template-columns: 80px auto auto 50px;
+		grid-template-rows: 55px auto 55px;
+		
+		grid-gap: 5px;
+
+	text-align: center;
+}
+
+.header {
+	background-color: red;
+	grid-column: 1/5;
+	grid-row: 1;
+}
+
+.menu {
+	color: white;
+	background-color: black;
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.content {
+	height: 500px;
+	background-color: aqua;
+	grid-column: 2/4;
+	grid-row: 2;
+}
+
+.ad {
+	background-color: brown;
+	grid-column: 4;
+	grid-row: 2;
+}
+
+.footer {
+	background-color: pink;
+	grid-column: 1/5;
+	grid-row: 3;
+}
