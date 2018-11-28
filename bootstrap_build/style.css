@@ -1,0 +1,48 @@
+body {
+	background-color: rgb(242,242,242);
+	font-family: "Avenir";
+	text-align: center;
+}
+
+#fun-facts {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#fun-facts p {
+	border-bottom: 2px black solid;
+}
+
+#bold-title {
+	font-weight: bold;
+}
+
+.carousel-inner {
+	height: 100%;
+	width: auto;
+}
+
+.carousel-inner img {
+  	margin: auto;
+}
+
+.carousel-caption {
+	color: black;
+	font-weight: bold;
+}
+
+.nav-item img {
+	height: 30px;
+	width: auto;
+}
+
+.row img {
+	height: 250px;
+	width: auto;
+}
+
+.map-label {
+	font-family: "Avenir";
+	margin: 0px;
+	padding: 0px;
+}
