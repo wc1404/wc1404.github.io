@@ -1,0 +1,25 @@
+body {
+	align-content: center;
+	text-align: center;
+	font-family: "Avenir";
+}
+
+h1 {
+	font-size: 20px;
+}
+
+#color-picker {
+	font-family: "Avenir"
+	font-size: 15px;
+}
+
+#pupper {
+	width: 500px;
+	height: auto;
+}
+
+#tie {
+	position: absolute;
+	width: 100px;
+	height: auto;
+}
